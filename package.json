@@ -3,9 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "bootstrap": "^4.3.1",
+    "material-ui": "^0.20.2",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mdbreact": "^4.11.0",
+    "mongoose": "^5.4.20",
     "react": "^16.8.4",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-coverflow": "^0.2.19",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "react-ui-cards": "^1.5.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +35,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "semantic-ui-ember": "github:Semantic-Org/Semantic-UI-Ember"
+  }
 }
