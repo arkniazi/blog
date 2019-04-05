@@ -1,0 +1,187 @@
+.App {
+ text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-content{
+  /* margin-left: 9rem !important; */
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.c-card{
+  width: 30rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .g-card{
+        /* margin-top: 10px; */
+        margin-bottom:20px;
+    }
+    /* .main-content{
+      margin-left: unset !important;
+      padding-left: unset  !important
+    } */
+    .c-card{
+      width: 22rem;
+      margin-bottom: 20px
+    }
+    
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mycard{
+  /* display: flex; */
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: table-footer-group;
+  transition: 0.5s;
+}
+
+.mycard-image{
+    width: 100%;
+}
+.mycard-image img{
+    width: 100%;
+    height: auto;
+}
+.mycard-body{
+  background: #2bbbad;
+}
+.mycard:hover{
+  /* transform: scale(1.1); */
+}
+.mycard-title{
+  padding: .85rem !important;
+  font-weight: 400;
+  color: white;
+}
+.mycard-text{
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: .75rem !important;
+}
+.mycard-body button{
+  margin-bottom: 1rem;
+}
+.contact-us{
+  margin-bottom: 15px;
+  margin-top: 80px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 20px  50px !important;
+  border-radius: 10px;
+}
+.contact-us .md-form{
+  margin-bottom: 2rem;
+}
+.contact-us h1{
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.Contact h1{
+  font-size: 50px;
+  font-weight: 400;
+  /* margin:  80px !important; */
+  margin-top: 80px !important;
+  margin-bottom: 50px !important;
+  font-family: 'Maven Pro', sans-serif;
+  color: #444a5a;
+}
+.profileCard img{
+  width: 100%;
+  max-height: 200px;
+  /* border-radius: 200px; */
+}
+.profileCard{
+  background: #ccc;
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */
+  margin-bottom: 50px;
+  /* border-radius: 10px; */
+  transition: 0.25s;
+}
+.profileCard .p-card-header{
+  font-weight: 700;
+  font-size: 1.28571429em;
+  margin-top: -.21425em;
+  line-height: 1.28571429em;
+}
+.profileCard .p-card-contact{
+  color: rgba(0,0,0,.68);
+}
+.profileCard .p-card-body{
+  padding: 10px !important;
+  text-align: center
+}
+.mcs{
+  /* margin: 0 200px !important; */
+  /* background: #ccc; */
+  width: 800px !important;
+}
+.profileCard:hover{
+
+  transform: translateY(-8px);
+box-shadow: 0 10px 10px -10px #7f8c8d;
+}
+
+.hr-line{
+  margin-bottom: 30px;
+  border-top: 5px solid #2bbbad;
+  margin-top: 30px;
+}
+.project-view{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.project-view h1{
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 80px !important;
+  margin-bottom: 50px !important;
+  font-family: 'Maven Pro', sans-serif;
+  color: #444a5a;
+}
+.project-view p{
+  text-align: justify;
+  line-height: 23px;
+  font-size: 16px;
+  word-spacing: 3px;
+}
+.project-view .p-image img{
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+
+
+/* ====== Login Container =====*/
+.login-container{
+
+}
