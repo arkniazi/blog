@@ -13,7 +13,9 @@ import  Contacts from "./components/MainView/Contacts";
 import  EmailPage from "./components/MainView/EmailPage";
 import  AddUpdate from "./components/MainView/AddUpdate";
 import ProjectView from './components/MainView/Project';
+import AllProjects from './components/MainView/AllProjects';
 import Login from './components/MainView/Auth/login';
+import UpdateBlog from './components/MainView/UpdateBlog';
 
 const Home = () => {
     return (
@@ -24,7 +26,10 @@ const Home = () => {
             <Route exact path="/contacts" component={Contacts}></Route>
             <Route exact path="/contact_us" component={EmailPage}></Route>
             <Route exact path="/add_update" component={AddUpdate}></Route>
+            <Route exact path="/project_update" component={UpdateBlog}></Route>
+            <Route exact path="/projects_list" component={AllProjects}></Route>
             <Route exact path="/project_view" component={ProjectView}></Route>
+            {/* <Route exact path="/add_project" component={ProjectView}></Route> */}
             <Route exact path="/login" component={Login}></Route>
             {/* <Route exact path='/contacts' component={Contacts}></Route> */}
             {/* <Route exact path='/signup' component={SignUp}></Route> */}

@@ -1,14 +1,29 @@
 const mongoose = required('mongoose');
-const Schema = mongoose.Schema;
 
-let auth = new Schema({
-    username:{
-        type:string
+const auth = mongoose.Schema({
+    passwordHash:{
+        type:String,
+        required:true
     },
-    password:{
-        type:string
+    email:{
+        type:String,
+        required:true,
+        unique:true
+    },
+    username:{
+        type:String,
+        required:true,
+        unique:true
+    },
+    tokenSeed:{
+        type:String,
+        required:true,
+        unique:true,
+    },
+    createdAt:{
+        type:Date,
+        default:()=>new Date()
     }
 });
-
 
 module.exports = mongoose.model('auth',auth);
